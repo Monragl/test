@@ -1,0 +1,82 @@
+2022/01/20 08:43:59 [error] 891#891: *39 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: mysite.test, request: "GET /pma/index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2022/01/20 08:50:40 [error] 6734#6734: *55 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: mysite.test, request: "GET / HTTP/1.1", host: "localhost"
+2022/01/20 08:50:54 [error] 6734#6734: *63 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: mysite.test, request: "GET / HTTP/1.1", host: "localhost"
+2022/01/20 08:51:23 [error] 6734#6734: *66 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 127.0.0.1, server: mysite.test, request: "GET / HTTP/1.1", host: "localhost"
+2022/01/20 09:01:45 [error] 8004#8004: *82 directory index of "/var/www/html/frontend/pma/" is forbidden, client: 127.0.0.1, server: mysite.test, request: "GET /pma/ HTTP/1.1", host: "localhost"
+2022/01/20 09:21:14 [error] 7871#7871: *35 open() "/var/www/html/frontend/bin" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /bin HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/01/20 09:21:27 [error] 7886#7886: *41 open() "/var/www/html/frontend/bin" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /bin HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/01/20 09:21:27 [error] 7886#7886: *38 open() "/var/www/html/frontend/img/bg-image-01.jpg" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /img/bg-image-01.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/css/style.css"
+2022/01/20 09:23:27 [error] 8148#8148: *47 open() "/var/www/html/frontend/bin" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /bin HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/01/20 09:23:27 [error] 8148#8148: *42 open() "/var/www/html/frontend/img/bg-image-01.jpg" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /img/bg-image-01.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/css/style.css"
+2022/01/20 09:24:16 [error] 8148#8148: *42 open() "/var/www/html/frontend/bin" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /bin HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/01/20 09:24:16 [error] 8148#8148: *42 open() "/var/www/html/frontend/img/bg-image-01.jpg" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /img/bg-image-01.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/css/style.css"
+2022/01/20 09:24:34 [error] 8148#8148: *42 open() "/var/www/html/frontend/bin" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /bin HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/01/20 09:24:34 [error] 8148#8148: *42 open() "/var/www/html/frontend/img/bg-image-01.jpg" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /img/bg-image-01.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/css/style.css"
+2022/01/20 09:25:55 [error] 8148#8148: *57 open() "/var/www/html/frontend/bin" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /bin HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/01/20 09:25:55 [error] 8148#8148: *57 open() "/var/www/html/frontend/img/bg-image-01.jpg" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /img/bg-image-01.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/css/style.css"
+2022/01/20 09:25:56 [error] 8148#8148: *57 open() "/var/www/html/frontend/bin" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /bin HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/01/20 09:25:57 [error] 8148#8148: *57 open() "/var/www/html/frontend/bin" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /bin HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/01/20 09:25:58 [error] 8148#8148: *57 open() "/var/www/html/frontend/bin" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /bin HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/01/20 09:28:16 [error] 8148#8148: *60 open() "/var/www/html/frontend/bin" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /bin HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/01/20 09:28:16 [error] 8148#8148: *62 open() "/var/www/html/frontend/img/bg-image-01.jpg" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /img/bg-image-01.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/css/style.css"
+2022/01/20 09:28:53 [error] 8148#8148: *73 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: mysite.test, request: "GET /pma/index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8080"
+2022/01/20 09:29:43 [error] 8148#8148: *73 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: mysite.test, request: "GET /pma/index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8080"
+2022/01/20 09:29:43 [error] 8148#8148: *73 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: mysite.test, request: "GET /pma/index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8080"
+2022/01/20 09:29:44 [error] 8148#8148: *73 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: mysite.test, request: "GET /pma/index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8080"
+2022/01/20 09:29:51 [error] 8148#8148: *73 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: mysite.test, request: "GET /pma/index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8080"
+2022/01/20 09:30:14 [error] 8148#8148: *73 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: mysite.test, request: "GET /pma/index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8080"
+2022/01/20 09:30:54 [error] 8148#8148: *91 open() "/var/www/html/frontend/bin" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /bin HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/01/20 09:30:55 [error] 8148#8148: *89 open() "/var/www/html/frontend/img/bg-image-01.jpg" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /img/bg-image-01.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/css/style.css"
+2022/01/20 09:31:53 [error] 8148#8148: *73 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: mysite.test, request: "GET /pma/index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8080"
+2022/01/20 09:32:23 [error] 8148#8148: *73 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: mysite.test, request: "GET /pma/index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8080"
+2022/01/20 09:32:32 [error] 8148#8148: *100 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 127.0.0.1, server: mysite.test, request: "GET /pma/index.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8080"
+2022/01/20 09:37:09 [error] 9803#9803: *102 directory index of "/var/www/html/sql/" is forbidden, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost:4000"
+2022/01/20 09:37:10 [error] 9803#9803: *102 open() "/var/www/html/sql/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /favicon.ico HTTP/1.1", host: "localhost:4000", referrer: "http://localhost:4000/"
+2022/01/20 09:50:13 [error] 9803#9803: *103 directory index of "/var/www/html/sql/" is forbidden, client: 127.0.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost:4000"
+2022/01/20 11:53:14 [error] 976#976: *7 open() "/var/www/html/frontend/bin" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /bin HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php?r=site%2Fcontact"
+2022/01/20 11:53:15 [error] 976#976: *7 open() "/var/www/html/frontend/bin" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /bin HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/01/20 12:28:50 [error] 812#812: *7 open() "/var/www/html/frontend/favicon.ico" failed (2: No such file or directory), client: 192.168.102.175, server: _, request: "GET /favicon.ico HTTP/1.1", host: "192.168.102.115"
+2022/01/20 12:29:20 [error] 812#812: *15 open() "/var/www/html/frontend/bin" failed (2: No such file or directory), client: 127.0.0.1, server: _, request: "GET /bin HTTP/1.1", host: "localhost", referrer: "http://localhost/index.php?r=site%2Fcontact"
+2022/01/20 13:07:00 [error] 812#812: *194 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'Response' not found in /var/www/html/backend/config/web.php:16
+Stack trace:
+#0 /var/www/html/backend/web/index.php(10): require()
+#1 {main}
+  thrown in /var/www/html/backend/config/web.php on line 16" while reading response header from upstream, client: 127.0.0.1, server: mysite.test, request: "GET /api/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8080"
+2022/01/20 13:07:04 [error] 812#812: *194 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'Response' not found in /var/www/html/backend/config/web.php:16
+Stack trace:
+#0 /var/www/html/backend/web/index.php(10): require()
+#1 {main}
+  thrown in /var/www/html/backend/config/web.php on line 16" while reading response header from upstream, client: 127.0.0.1, server: mysite.test, request: "GET /api/3 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8080"
+2022/01/20 13:07:06 [error] 812#812: *194 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'Response' not found in /var/www/html/backend/config/web.php:16
+Stack trace:
+#0 /var/www/html/backend/web/index.php(10): require()
+#1 {main}
+  thrown in /var/www/html/backend/config/web.php on line 16" while reading response header from upstream, client: 127.0.0.1, server: mysite.test, request: "GET /api/2 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8080"
+2022/01/20 13:07:11 [error] 812#812: *198 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'Response' not found in /var/www/html/backend/config/web.php:16
+Stack trace:
+#0 /var/www/html/backend/web/index.php(10): require()
+#1 {main}
+  thrown in /var/www/html/backend/config/web.php on line 16" while reading response header from upstream, client: 127.0.0.1, server: mysite.test, request: "GET /api/1 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8080"
+2022/01/20 13:07:13 [error] 812#812: *198 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'Response' not found in /var/www/html/backend/config/web.php:16
+Stack trace:
+#0 /var/www/html/backend/web/index.php(10): require()
+#1 {main}
+  thrown in /var/www/html/backend/config/web.php on line 16" while reading response header from upstream, client: 127.0.0.1, server: mysite.test, request: "GET /api/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8080"
+2022/01/20 13:08:21 [error] 812#812: *202 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught Error: Class 'Response' not found in /var/www/html/backend/config/web.php:29
+Stack trace:
+#0 /var/www/html/backend/web/index.php(10): require()
+#1 {main}
+  thrown in /var/www/html/backend/config/web.php on line 29" while reading response header from upstream, client: 127.0.0.1, server: mysite.test, request: "GET /api/ HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8080"
+2022/01/20 13:26:24 [error] 812#812: *287 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/html/backend/controllers/ApiController.php on line 19. in /var/www/html/backend/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /var/www/html/backend/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /var/www/html/backend/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/html/backend/vendor/yiisoft/yii2/base/ErrorHandler.php(135): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#4 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request: api/1 in /var/www/html/backend/vendor/yiisoft/yii2/base/Controller.php:149
+Stack trace:
+#0 /var/www/html/backend/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction('1', Array)
+#1 /var" while reading upstream, client: 127.0.0.1, server: mysite.test, request: "GET /api/1 HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:8080"
