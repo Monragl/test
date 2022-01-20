@@ -8645,7 +8645,7 @@ html .page .text-white-lighter {
 }
 
 * + h3 {
-	margin-top: 12px;
+	margin-top: 50px;
 }
 
 * + h4 {
@@ -8733,7 +8733,7 @@ img + p {
 		margin-top: 26px;
 	}
 	* + .rd-form {
-		margin-top: 30px;
+		margin-top: 70px;
 	}
 	p + p {
 		margin-top: 20px;
@@ -9531,10 +9531,6 @@ html [class*='section-'].section-bottom-0 {
 
 .bg-default:not([style*="background-"]) + .bg-default:not([style*="background-"]) {
 	padding-top: 0;
-}
-
-.bg-gray-100 {
-	background-color: #f6f6f6;
 }
 
 .bg-gray-100:not([style*="background-"]) + .bg-gray-100:not([style*="background-"]) {
@@ -15627,7 +15623,26 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 .m-parallax-content {
 	position: relative;
 }
-
+.letter{
+	width: 100vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('/frontend/images/bg-image-3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.text-uppercase3{
+	color: #fff;
+}
+.font-weight-regular2{
+	color: #fff;
+}
+.letter-center{
+	display: flex;
+	justify-content: center;
+}
 /*----------------------media-----------------------------*/
 @media (min-width: 1200px){
     .block {
