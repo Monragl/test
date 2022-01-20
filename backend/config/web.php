@@ -12,28 +12,29 @@ $config = [
         '@npm'   => '@vendor/npm-asset',
     ],
     'components' => [
-        'response' => [
+        'response'=>[
             
-            'formatters' => [
-                \yii\web\Response::FORMAT_JSON => [
-                    'class' => 'yii\web\JsonResponseFormatter',
-                    'prettyPrint' => YII_DEBUG, // используем "pretty" в режиме отладки
-                    'encodeOptions' => JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE,
-                ],
-                \yii\web\Response::FORMAT_XML => [
-                    'class' => 'yii\web\JsonResponseFormatter',
-                    'prettyPrint' => YII_DEBUG, // используем "pretty" в режиме отладки
-                    'encodeOptions' => JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE,
-                ],
-            ],
+            // 'formatters' => [
+            //     \yii\web\Response::FORMAT_JSON => [
+            //         'class' => 'yii\web\JsonResponseFormatter',
+            //         'prettyPrint' => YII_DEBUG, // используем "pretty" в режиме отладки
+            //         'encodeOptions' => JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE,
+            //     ],
+            //     // \yii\web\Response::FORMAT_XML => [
+            //     //     'class' => 'yii\web\JsonResponseFormatter',
+            //     //     'prettyPrint' => YII_DEBUG, // используем "pretty" в режиме отладки
+            //     //     'encodeOptions' => JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE,
+            //     // ],
+            // ],
+            'format' => \yii\web\Response::FORMAT_JSON
         ],
-
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => '',
+            'cookieValidationKey' => 'VQ1SOLLnCw486kToiEqzPjZ4Bi76Q1iM',
             'parsers' => [
                 'application/json' => 'yii\web\JsonParser',
-            ]
+                // 'application/html' => 'yii\web\JsonParser',
+            ] 
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
@@ -64,12 +65,18 @@ $config = [
         'db' => $db,
         'urlManager' => [
             'enablePrettyUrl' => true,
-            'enableStrictParsing' => true,
+            'enableStrictParsing' => false,
             'showScriptName' => false,
             'rules' => [
                 ['class' => 'yii\rest\UrlRule', 'controller' => 'api'],
+                // ['class' => 'yii\rest\UrlRule', 'controller' => 'user'],
+                // 'GET api/booking/<code>'=>'api/bookin',
+                // 'POST api/booking' => 'api/booking',
+                // 'GET api/booking/<code>/seat'=>'api/seat',
+                // 'PATCH api/booking/<code>/seat'=>'api/seat2'
+               
             ],
-        ]
+        ],
     ],
     'params' => $params,
 ];
