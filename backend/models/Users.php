@@ -8,6 +8,7 @@ use yii\web\IdentityInterface;
 
 class Users extends ActiveRecord implements IdentityInterface
 {
+    public $api_token;
 
     
     /**
@@ -43,25 +44,17 @@ class Users extends ActiveRecord implements IdentityInterface
     {
         return [
             // атрибут required указывает, что name, email, subject, body обязательны для заполнения
-            [['first_name', 'phone', 'last_name', 'document_number','password'], 'required'],
-            ['phone','validatePhone'],
-            ['document_number', 'validateDocumentNumber']
+            [['login', 'password', 'rolekey', 'description','username'], 'required'],
+            ['login','validateLogin'],
         ];
         
     }
-    public function validatePhone($attribute, $params)
+    public function validateLogin($attribute, $params)
     {
-        if (!empty(Users::findOne(['phone'=>$this->$attribute]))) {
-            $this->addError($attribute, 'No uniq phone');
+        if (!empty(Users::findOne(['login'=>$this->$attribute]))) {
+            $this->addError($attribute, 'No uniq login');
         }
     }
-    public function validateDocumentNumber($attribute,$params)
-    {
-        if (strlen($this->$attribute)!= 10) {   
-            $this->addError($attribute, 'Lenght must be 10 chartes');
-        }elseif(!is_numeric($this->$attribute)){
-            $this->addError($attribute, 'String must contain only цыфры');
-        }
-    }
+    
 
 }
