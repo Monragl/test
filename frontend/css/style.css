@@ -37,7 +37,7 @@ header a{
     font-size: 18px;
 }
 main{
-    background-image: url('/frontend/images/bg-image-01.jpg');
+    background-image: url('/images/bg-image-01.jpg');
     background-repeat: no-repeat;
 	background-position: right;
     width: 100%;
@@ -15629,7 +15629,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('/frontend/images/bg-image-3.jpg');
+    background: url('/images/bg-image-3.jpg');
     background-attachment: fixed;
     background-size: cover;
 }
