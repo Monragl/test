@@ -104,10 +104,10 @@ main{
 }
 .text-uppercase {
     text-transform: uppercase !important;
-	padding-right: 158px;
 }
-.text-uppercase2 {
+.text-uppercase4 {
     text-transform: uppercase !important;
+	color: black;
 }
 h4{
     color: black;
@@ -3386,9 +3386,11 @@ textarea.form-input {
 	will-change: transform;
 	transform: translateY(-50%);
 }
-
 .form-label.focus {
 	opacity: 0;
+}
+.text-uppercase2 {
+    text-transform: uppercase !important;
 }
 
 .form-label.auto-fill {
@@ -6203,13 +6205,20 @@ button.quote-light-avatar.active {
 		margin-left: -20px;
 	}
 	.layout-2 > * {
-		margin-left: 4px;
+		margin-left: 20px;
 	}
 	.layout-2 > * {
 		vertical-align: middle;
 	}
 	.layout-2-item {
 		flex-shrink: 0;
+	}
+	.layout-2 {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		margin-left: -20px;
 	}
 }
 
@@ -8649,7 +8658,6 @@ html .page .text-white-lighter {
 }
 
 * + h4 {
-	margin-top: 12px;
 }
 
 * + h5 {
